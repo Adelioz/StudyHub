@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		FC499A14261B7EED00A707A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC499A13261B7EED00A707A7 /* AppDelegate.swift */; };
 		FC499A16261B7EED00A707A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC499A15261B7EED00A707A7 /* SceneDelegate.swift */; };
-		FC499A18261B7EED00A707A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC499A17261B7EED00A707A7 /* ViewController.swift */; };
 		FC499A1B261B7EED00A707A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC499A19261B7EED00A707A7 /* Main.storyboard */; };
 		FC499A1D261B7EEE00A707A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC499A1C261B7EEE00A707A7 /* Assets.xcassets */; };
 		FC499A20261B7EEE00A707A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC499A1E261B7EEE00A707A7 /* LaunchScreen.storyboard */; };
+		FC499A32261BB55700A707A7 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC499A31261BB55700A707A7 /* TabBarViewController.swift */; };
+		FC499A35261BB68B00A707A7 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC499A34261BB68B00A707A7 /* ScheduleViewController.swift */; };
+		FC499A38261BB6A600A707A7 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC499A37261BB6A600A707A7 /* ListViewController.swift */; };
+		FC499A3B261BB98000A707A7 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC499A3A261BB98000A707A7 /* CalendarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FC499A10261B7EED00A707A7 /* StudyHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC499A13261B7EED00A707A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC499A15261B7EED00A707A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FC499A17261B7EED00A707A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FC499A1A261B7EED00A707A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC499A1C261B7EEE00A707A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC499A1F261B7EEE00A707A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC499A21261B7EEE00A707A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC499A31261BB55700A707A7 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		FC499A34261BB68B00A707A7 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		FC499A37261BB6A600A707A7 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		FC499A3A261BB98000A707A7 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +64,10 @@
 			children = (
 				FC499A13261B7EED00A707A7 /* AppDelegate.swift */,
 				FC499A15261B7EED00A707A7 /* SceneDelegate.swift */,
-				FC499A17261B7EED00A707A7 /* ViewController.swift */,
+				FC499A31261BB55700A707A7 /* TabBarViewController.swift */,
+				FC499A37261BB6A600A707A7 /* ListViewController.swift */,
+				FC499A34261BB68B00A707A7 /* ScheduleViewController.swift */,
+				FC499A3A261BB98000A707A7 /* CalendarViewController.swift */,
 				FC499A19261B7EED00A707A7 /* Main.storyboard */,
 				FC499A1C261B7EEE00A707A7 /* Assets.xcassets */,
 				FC499A1E261B7EEE00A707A7 /* LaunchScreen.storyboard */,
@@ -137,9 +146,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC499A18261B7EED00A707A7 /* ViewController.swift in Sources */,
+				FC499A3B261BB98000A707A7 /* CalendarViewController.swift in Sources */,
 				FC499A14261B7EED00A707A7 /* AppDelegate.swift in Sources */,
+				FC499A32261BB55700A707A7 /* TabBarViewController.swift in Sources */,
 				FC499A16261B7EED00A707A7 /* SceneDelegate.swift in Sources */,
+				FC499A38261BB6A600A707A7 /* ListViewController.swift in Sources */,
+				FC499A35261BB68B00A707A7 /* ScheduleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
